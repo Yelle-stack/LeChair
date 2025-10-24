@@ -1,9 +1,18 @@
 import React from "react";
+import Header from './components/header/header';
+import Hero from "./components/hero/hero";
+import Companies from "./components/companies/companies";
+import Chair from "./components/chair/chair";
+import About from "./components/about/about";
 
 const App = () => {
   return (
     <div>
-      <h1>Subscribe CarpoolVenom</h1>
+     <Header />
+     <Hero />
+     <Companies />
+     <Chair />
+     <About />
     </div>
   );
 };
